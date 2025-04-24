@@ -13,21 +13,63 @@ A data-driven solution for dynamic pricing and inventory optimization in a fashi
 - Optimize inventory using RFM and ABC analysis
 - Visualize insights via an interactive Power
 
-## 🧾 Exploratory Data Analysis Summary
-Dataset: Fashion Retail Sales
-Timeframe: 2022–2023 (based on transaction dates)
+## 📊 Exploratory Data Analysis (EDA) Summary
+📈 Sales Trends: Peak purchasing occurred in [insert peak month], with higher sales on weekends.
 
-📈 Sales Trends
+🛍️ Top Items: "Handbag", "Tank Top", and "Leggings" were the highest-revenue products.
 
-Sales peaked around [mention month with highest sales].
+💳 Payment Behavior: Credit Card was the most preferred method, followed by Cash.
 
-Weekends (especially Saturday) show significantly higher purchasing activity.
+⭐ Review Impact: Higher-rated products (4.5+) showed slightly higher purchase amounts, indicating positive feedback may influence spending.
 
-🛍️ Product Insights
+📅 Weekday Behavior: Saturday had the highest revenue; Tuesday was the lowest.
 
-Top-selling items include [e.g., "Handbag", "Tank Top"] by revenue.
+## 📈 Modeling & Optimization Summary
+🧠 RFM Segmentation
+Recency: Days since last purchase
 
-Items like [low-performing ones] may need promotional boosts or reconsideration.
+Frequency: Total transactions per customer
+
+Monetary: Total purchase value per customer
+
+🛒 ABC Classification
+Class A: Top ~20% items → generate 80% revenue
+
+Class B: Middle 15% items
+
+Class C: Remaining items → low ROI, high risk
+
+🌪️ Demand Volatility
+Calculated via standard deviation of weekly sales per product
+
+High-volatility products flagged for lean inventory strategies
+
+💰 Dynamic Pricing Simulation
++10% price for high-rated (4.5+) items
+
+−10% discount for poorly rated (<3.0) items
+
+Tracked simulated price change impact across product categories
+
+## 📦 Outputs
+cleaned_fashion_sales.csv
+
+inventory_strategy_summary.csv
+
+simulated_pricing.csv
+
+3 modular notebooks: data_cleaning, EDA, pricing_inventory_model
+
+## 🧰 Tools Used:
+Python (pandas, matplotlib, seaborn)
+
+Jupyter Notebooks
+
+Git & GitHub
+
+Power BI/Tableau for dashboard visualization
+
+## 🚀 Outcomes:
 
 💳 Payment Behavior
 
