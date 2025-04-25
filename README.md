@@ -62,7 +62,7 @@ simulated_pricing.csv
 
 ## 📊 Dashboard Preview
 
-![Dashboard](images/Dashboard.png)
+![Dashboard](Dashboard.png)
 
 ## 🧰 Tools Used:
 Python (pandas, matplotlib, seaborn)
