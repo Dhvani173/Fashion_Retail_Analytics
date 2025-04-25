@@ -60,6 +60,10 @@ simulated_pricing.csv
 
 3 modular notebooks: data_cleaning, EDA, pricing_inventory_model
 
+## 📊 Dashboard Preview
+
+![Dashboard](images/Dashboard.png)
+
 ## 🧰 Tools Used:
 Python (pandas, matplotlib, seaborn)
 
