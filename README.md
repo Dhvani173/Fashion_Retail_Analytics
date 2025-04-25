@@ -14,7 +14,7 @@ A data-driven solution for dynamic pricing and inventory optimization in a fashi
 - Visualize insights via an interactive Power
 
 ## 📊 Exploratory Data Analysis (EDA) Summary
-📈 Sales Trends: Peak purchasing occurred in [insert peak month], with higher sales on weekends.
+📈 Sales Trends: Peak purchasing occurred in November, with higher sales on weekends.
 
 🛍️ Top Items: "Handbag", "Tank Top", and "Leggings" were the highest-revenue products.
 
@@ -62,7 +62,7 @@ simulated_pricing.csv
 
 ## 📊 Dashboard Preview
 
-![Dashboard](Dashboard.png)
+![Dashboard](Dashboard.jpg)
 
 ## 🧰 Tools Used:
 Python (pandas, matplotlib, seaborn)
